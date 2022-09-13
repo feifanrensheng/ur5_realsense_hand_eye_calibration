@@ -1,0 +1,6 @@
+<launch>
+	
+
+	<node pkg="tf" type="static_transform_publisher" name="ur5_broadcaster" args="1.50190697498 -0.0734517907507 0.76093286675 -0.5836315285 -0.719697536591 0.267288435804 0.264511978653 base_link camera_link 100" />
+ 
+</launch>
